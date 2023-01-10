@@ -1,0 +1,22 @@
+{
+  "name": "lakeview",
+  "version": "1.0.0",
+  "description": "A country club website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sadick-yakubu/lakeview.git"
+  },
+  "author": "sadick-yakubu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sadick-yakubu/lakeview/issues"
+  },
+  "homepage": "https://github.com/sadick-yakubu/lakeview#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
