@@ -11,6 +11,7 @@
        background-image:linear-gradient(to right bottom, rgba($primary-light,0.5),rgba($primary-dark,0.5)), url(./img/header-image-1-medium.jpg);
        background-position: top;
        background-size: cover;
+       animation: fade1 10s infinite;
     }
     &__slider--2{
         position: absolute;
@@ -21,6 +22,7 @@
         background-image:linear-gradient(to right bottom, rgba($primary-light,0.5),rgba($primary-dark,0.5)), url(./img/header-image-2-medium.jpg);
         background-position: top;
         background-size: cover;
+        animation: fade2 10s infinite;
      }
      &__slider--3{
         position: absolute;
@@ -31,6 +33,7 @@
         background-image:linear-gradient(to right bottom, rgba($primary-light,0.5),rgba($primary-dark,0.5)), url(./img/header-image-3-medium.jpg);
         background-position: top;
         background-size: cover;
+        animation: fade3 10s infinite;
      }
      &__slider--4{
         position: absolute;
@@ -41,5 +44,6 @@
         background-image:linear-gradient(to right bottom, rgba($primary-light,0.5),rgba($primary-dark,0.5)), url(./img/header-image-4-medium.jpg);
         background-position: top;
         background-size: cover;
+        animation: fade4 10s infinite;
      }
 }
