@@ -56,12 +56,12 @@
      }
      &__text-box{
         position: absolute;
-        top: 50%;
+        top: 60%;
         @include center-object;
      }
      &__btn-box{
         position: absolute;
-        top: 60%;
+        top: 85%;
         @include center-object;
      }
 }
