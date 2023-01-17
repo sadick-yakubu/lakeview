@@ -77,10 +77,12 @@ body {
 .heading-secondary {
   font-size: 3.5rem;
   text-transform: uppercase;
+  margin-bottom: 4rem;
   font-weight: 700;
   background-image: linear-gradient(to right, #28b485, #ffb900);
   -webkit-background-clip: text;
-  color: transparent; }
+  color: transparent;
+  transition: all .5s; }
   .heading-secondary:hover {
     transform: skewY(2deg) skewX(15deg);
     text-shadow: 5rem 2rem 2rem rgba(0, 0, 0, 0.2); }
@@ -246,6 +248,34 @@ body {
 .btn-rectangular:active {
   transform: translateY(-1px);
   box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.5); }
+
+.composition {
+  position: relative;
+  margin-left: 5rem; }
+  .composition__img {
+    width: 55%;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    position: absolute;
+    z-index: 10;
+    outline-offset: 1.5rem;
+    transition: all .2s; }
+    .composition__img--1 {
+      left: 2rem;
+      top: 2rem; }
+    .composition__img--2 {
+      left: 9rem;
+      top: 9rem; }
+    .composition__img--3 {
+      left: 17rem;
+      top: 17rem; }
+    .composition__img:hover {
+      transform: scale(1.1) translateY(-0.5rem);
+      box-shadow: 0 1.75rem 5rem rgba(0, 0, 0, 0.5);
+      z-index: 20;
+      outline: 1.5rem solid #4f612a; }
+    .composition__img:hover .composition__img:__img:not(:hover) {
+      transform: scale(0.9); }
 
 .about-section {
   background-color: #f7f7f7;

@@ -18,10 +18,12 @@
 .heading-secondary{
     font-size: 3.5rem;
     text-transform: uppercase;
+    margin-bottom: 4rem;
     font-weight: 700;
     background-image: linear-gradient(to right, $primary-light, $secondary-light);
     -webkit-background-clip: text;
     color: transparent;
+    transition: all .5s;
 
     &:hover{
         transform: skewY(2deg) skewX(15deg);
